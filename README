@@ -1,0 +1,5 @@
+Alex Laubscher
+
+This application is my making of the populat game 2048. The core components of the game are there, but when I wrote this a couple years ago I didn't add the end condition to the game. There is also a known bug of the game allowing the generation of a new block even when others don't move. This should be an invalid move.
+
+email: aclaubscher17@gmail.com
