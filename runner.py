@@ -53,6 +53,7 @@ def main():
         score_text = update_score(win, score)
         
         if moved == True:
+            print("yuh", score_text)
             spawn_tile(win, tile_list)
             
         pt = win.getMouse()
@@ -384,7 +385,7 @@ def move_left(win, tile_list):
             tile_list[3][r].changeLabel(0)
             moved = True
             points_added += tile_list[2][r].getLabel()
-        rigth_and_left_check(r, tile_list)
+        right_and_left_check(r, tile_list)
         for c in range(4):
             tile_list[c][r].changeText(win)
             tile_list[c][r].updateFill()
